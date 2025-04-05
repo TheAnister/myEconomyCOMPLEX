@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-myEconomyComplex (UltraEconomy)
+myEconomyComplex (myEconomyComplex)
 """
 
 import sys
@@ -2750,7 +2750,7 @@ class SplashScreen(QSplashScreen):
         layout.setContentsMargins(20, 20, 20, 20)
         
         # Add the title
-        title_label = QLabel("UltraEconomy Simulator")
+        title_label = QLabel("myEconomyComplex")
         title_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
         title_label.setStyleSheet(f"""
             font-size: 28px;
@@ -3118,7 +3118,7 @@ class MainWindow(QMainWindow):
         
     def initUI(self):
         """Initialize the user interface"""
-        self.setWindowTitle("UltraEconomy - Advanced Economic Simulator")
+        self.setWindowTitle("myEconomyComplex - Advanced Economic Simulator")
         self.setGeometry(50, 50, 1600, 900)
         self.setup_style()
         
@@ -3271,7 +3271,7 @@ class MainWindow(QMainWindow):
         toolbar_layout.setContentsMargins(10, 5, 10, 5)
         
         # Logo/Title
-        logo_label = QLabel("🏢 UltraEconomy")
+        logo_label = QLabel("🏢 myEconomyComplex")
         logo_label.setStyleSheet(f"""
             font-size: 18px;
             font-weight: bold;
@@ -5694,7 +5694,7 @@ class MainWindow(QMainWindow):
             <!DOCTYPE html>
             <html>
             <head>
-                <title>UltraEconomy Statistics - {datetime.now().strftime('%Y-%m-%d')}</title>
+                <title>myEconomyComplex Statistics - {datetime.now().strftime('%Y-%m-%d')}</title>
                 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
                 <style>
                     body {{ font-family: Arial, sans-serif; margin: 20px; background-color: #121212; color: white; }}
@@ -5709,7 +5709,7 @@ class MainWindow(QMainWindow):
             </head>
             <body>
                 <div class="container">
-                    <h1>UltraEconomy Statistics</h1>
+                    <h1>myEconomyComplex Statistics</h1>
                     <p>Generated on {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}</p>
             """
             
