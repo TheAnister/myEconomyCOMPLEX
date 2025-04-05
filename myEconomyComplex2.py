@@ -1,20 +1,6 @@
 #!/usr/bin/env python3
 """
-UltraEconomy - Advanced Economic Simulator
-
-A comprehensive economic simulation featuring:
-- Individual-based economic modeling with detailed citizen simulation
-- Complex business ecosystem with market interactions
-- Multifaceted tax system with adjustable brackets and rates
-- Government spending allocation across departments with real economic impacts
-- Central bank monetary policy and inflation dynamics
-- Financial market simulation with stock trading
-- Housing market with potential bubbles and crash scenarios
-- Modern Tesla-inspired dark mode UI with customizable dashboards
-- Gemini API integration for complex economic events and AI-driven behaviors
-- Detailed macro statistics tracking and data visualization
-
-This simulation tool is designed for economic modeling, policy testing, and visualization.
+myEconomyComplex (UltraEconomy)
 """
 
 import sys
@@ -2775,7 +2761,7 @@ class SplashScreen(QSplashScreen):
         layout.addWidget(title_label)
         
         # Add subtitle
-        subtitle_label = QLabel("Advanced Economic & Geopolitical Modeling")
+        subtitle_label = QLabel("Advanced economic simulator")
         subtitle_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
         subtitle_label.setStyleSheet(f"""
             font-size: 14px;
